@@ -17,30 +17,16 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
+const materialBasePath = "https://home.in.tum.de/~momi/era-materials/"
+
 // Mock data for lecture materials
 const lectureWeeks = [
   {
     week: 1,
+    date: "21.10.2024",
     topic: "Introduction to the Course",
     materials: [
-      { name: "Syllabus", url: "/materials/week1/syllabus.pdf" },
-      { name: "Lecture Slides", url: "/materials/week1/lecture_slides.pdf" },
-    ],
-  },
-  {
-    week: 2,
-    topic: "Fundamental Concepts",
-    materials: [
-      { name: "Lecture Notes", url: "/materials/week2/lecture_notes.pdf" },
-      { name: "Practice Problems", url: "/materials/week2/practice_problems.pdf" },
-    ],
-  },
-  {
-    week: 3,
-    topic: "Advanced Topics",
-    materials: [
-      { name: "Research Paper", url: "/materials/week3/research_paper.pdf" },
-      { name: "Case Study", url: "/materials/week3/case_study.pdf" },
+      { name: "Tutor Slides", url: "w01/era_slides_w01.pdf" },
     ],
   },
 ]
@@ -57,7 +43,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 2;
+  currentWeek = 1;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
@@ -114,7 +100,7 @@ export default function LectureMaterials() {
         <section className="mb-8 pt-8 border-t border-gray-200 dark:border-gray-700">
           <h2 className="text-2xl font-semibold mb-4">Lecture Materials</h2>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            Here you can find and download all the resources for each week of the course. The current week&aposs materials are expanded by default for your convenience.
+            Here you can find and download all the resources for each week of the course. The current week&apos;s materials are expanded by default for your convenience.
           </p>
           <Accordion type="single" collapsible defaultValue={`week-${currentWeek}`} className="space-y-4">
             {lectureWeeks.map((week) => (
@@ -122,7 +108,7 @@ export default function LectureMaterials() {
                 <AccordionTrigger className="text-left py-4 px-6 bg-white dark:bg-gray-800 rounded-t-lg shadow-sm hover:bg-gray-50 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-gray-100">
                   <div className="flex items-center">
                     <span className="text-lg font-semibold">
-                      Week {week.week}: {week.topic}
+                      Week {week.week} ({week.date}) - {week.topic}
                     </span>
                     {week.week === currentWeek && (
                       <span className="ml-2 px-2 py-1 text-xs font-medium text-green-800 bg-green-100 rounded-full dark:text-green-100 dark:bg-green-800">
@@ -152,7 +138,7 @@ export default function LectureMaterials() {
                           size="sm"
                           className="ml-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
                         >
-                          <a href={material.url} download>
+                          <a href={ materialBasePath + material.url } download>
                             Download
                           </a>
                         </Button>
