@@ -163,7 +163,7 @@ export default function LectureMaterials() {
           </div>
           <div className="md:w-1/3">
             <h3 className="text-xl font-semibold mb-2">Michael Morandell</h3>
-            <p>🗨️ Kontakt via: Zulip, <a href="mailto:m.morandell@tum.de" className="text-blue-600 dark:text-blue-400 hover:underline">Email</a></p>
+            <p>🗨️ Contact via: Zulip, <a href="mailto:m.morandell@tum.de" className="text-blue-600 dark:text-blue-400 hover:underline">Email</a></p>
           </div>
         </section>
 
