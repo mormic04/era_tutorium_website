@@ -4,8 +4,9 @@
 
 echo "Publishing new ERA Tutorpage"
 echo "============================"
-
+cd home_page/html-data/
 echo "rename build directory"
+rm -rf era
 mv out era
 echo "set correct access rights"
 chmod -R 705 era
@@ -15,4 +16,4 @@ git pull
 cd ..
 chmod -R 705 era-materials
 echo "======================="
-echo "published successfully!"
+echo "published successfully!
