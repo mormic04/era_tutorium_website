@@ -33,8 +33,8 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H lxhalle.in.tum.de >> ~/.ssh/known_hosts
-          scp -r ./out/* momi@lxhalle.in.tum.de:/u/halle/momi/home_at/home_page/html-data/
+          scp -r ./out/ momi@lxhalle.in.tum.de:/u/halle/momi/home_at/home_page/html-data/
 
       - name: Run publish script on server
         run: |
-          ssh -i ~/.ssh/id_rsa momi@lxhalle.in.tum.de "bash /u/halle/momi/home_at/home_page/html-data/publish.sh"
+          ssh -i ~/.ssh/id_rsa momi@lxhalle.in.tum.de "bash /u/halle/momi/home_at/home_page/html-data/publish_era.sh"
