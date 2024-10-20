@@ -26,7 +26,8 @@ const lectureWeeks = [
     date: "21.10.2024",
     topic: "Zahlensysteme",
     materials: [
-      { name: "Tutor Slides", url: "w01/era_tutorslides_w01.pdf" },
+      { name: "Tutor Slides", url: materialBasePath + "w01/era_tutorslides_w01.pdf" },
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3192195"}
     ],
   },
 ]
@@ -77,7 +78,7 @@ export default function LectureMaterials() {
             <TableBody>
               <TableRow>
                 <TableCell>Mo-1000-4</TableCell>
-                <TableCell>Monday - 10:00</TableCell>
+                <TableCell>Mondays, 10:00 - 12:00</TableCell>
                 <TableCell>
                   <a href="https://nav.tum.de/room/5613.03.010#18/48.262803/11.666871" className="text-blue-600 dark:text-blue-400 hover:underline">
                     03.13.010, Seminarraum (5613.03.010)
@@ -86,7 +87,7 @@ export default function LectureMaterials() {
               </TableRow>
               <TableRow>
                 <TableCell>Do-1200-2</TableCell>
-                <TableCell>Thursday - 12:00</TableCell>
+                <TableCell>Thursday, 12:00 - 14:00</TableCell>
                 <TableCell>
                   <a href="https://nav.tum.de/room/5606.01.020#18/48.262264/11.668827" className="text-blue-600 dark:text-blue-400 hover:underline">
                     01.06.020, Seminarraum (5606.01.020)
@@ -135,7 +136,7 @@ export default function LectureMaterials() {
                           size="sm"
                           className="ml-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
                         >
-                          <a href={ materialBasePath + material.url } download>
+                          <a href={ material.url } download>
                             Download
                           </a>
                         </Button>
