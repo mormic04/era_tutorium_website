@@ -38,3 +38,5 @@ jobs:
       - name: Run publish script on server
         run: |
           ssh -i ~/.ssh/id_rsa momi@lxhalle.in.tum.de "bash /u/halle/momi/home_at/home_page/html-data/publish_era.sh"
+
+          
