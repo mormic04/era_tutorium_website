@@ -26,7 +26,7 @@ const lectureWeeks = [
     date: "21.10.2024",
     topic: "Zahlensysteme",
     materials: [
-      { name: "Tutor Slides", url: "w01/w01.pdf" },
+      { name: "Tutor Slides", url: "w01/era_tutorslides_w01.pdf" },
     ],
   },
 ]
