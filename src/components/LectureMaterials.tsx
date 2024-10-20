@@ -24,9 +24,9 @@ const lectureWeeks = [
   {
     week: 1,
     date: "21.10.2024",
-    topic: "Introduction to the Course",
+    topic: "Zahlensysteme",
     materials: [
-      { name: "Tutor Slides", url: "w01/era_slides_w01.pdf" },
+      { name: "Tutor Slides", url: "w01/w01.pdf" },
     ],
   },
 ]
@@ -98,10 +98,7 @@ export default function LectureMaterials() {
         </section>
 
         <section className="mb-8 pt-8 border-t border-gray-200 dark:border-gray-700">
-          <h2 className="text-2xl font-semibold mb-4">Lecture Materials</h2>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">
-            Here you can find and download all the resources for each week of the course. The current week&apos;s materials are expanded by default for your convenience.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">Materials</h2>
           <Accordion type="single" collapsible defaultValue={`week-${currentWeek}`} className="space-y-4">
             {lectureWeeks.map((week) => (
               <AccordionItem key={week.week} value={`week-${week.week}`}>
