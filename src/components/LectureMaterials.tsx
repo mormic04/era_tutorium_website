@@ -27,7 +27,8 @@ const lectureWeeks = [
     topic: "Zahlensysteme",
     materials: [
       { name: "Tutor Slides", url: materialBasePath + "w01/era_tutorslides_w01_v2.pdf" },
-      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3192195"}
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3192195"},
+      { name: "Mitschrift 21.10.2024", url: materialBasePath + "w01/mitschrift_2024_10_21.pdf"}
     ],
   },
 ]
