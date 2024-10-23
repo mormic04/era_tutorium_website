@@ -12,8 +12,9 @@ echo "set correct access rights"
 chmod -R 705 era
 echo "loading materials"
 cd era-materials
+git reset --hard HEAD
 git pull
 cd ..
 chmod -R 705 era-materials
 echo "======================="
-echo "published successfully!
+echo "published successfully!"
