@@ -35,9 +35,12 @@ const lectureWeeks = [
   {
     week: 2,
     date: "28.10.2024",
-    topic: "RiscV",
+    topic: "RISC-V Assembly",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3206035"},
+      { name: "Tutorslides", url: materialBasePath + "w02/era_tutorslides_w02.pdf"},
+      { name: "Fixkommazahlen Tabelle", url: materialBasePath + "w02/binaryFixkommazahlen.ods"},
+      { name: "Zusammenfassung 'Erzeugung von 32-Bit Immediates'", url: materialBasePath + "w02/ErzeugenVon32BitImmediates.pdf"}
     ],
   },
 ]
@@ -54,7 +57,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 1;
+  currentWeek = 2;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
