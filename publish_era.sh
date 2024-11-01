@@ -11,10 +11,10 @@ mv out era
 echo "set correct access rights"
 chmod -R 705 era
 echo "loading materials"
-cd era-materials
+cd era-latex
 git reset --hard HEAD
 git pull
 cd ..
-chmod -R 705 era-materials
+chmod -R 705 era-latex
 echo "======================="
 echo "published successfully!"

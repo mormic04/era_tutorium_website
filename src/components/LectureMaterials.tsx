@@ -17,7 +17,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const materialBasePath = "https://home.in.tum.de/~momi/era-materials/"
+const materialBasePath = "https://home.in.tum.de/~momi/era-latex/"
 
 // Mock data for lecture materials
 const lectureWeeks = [
@@ -26,10 +26,10 @@ const lectureWeeks = [
     date: "21.10.2024",
     topic: "Zahlensysteme",
     materials: [
-      { name: "Tutor Slides", url: materialBasePath + "w01/era_tutorslides_w01_v2.pdf" },
+      { name: "Tutor Slides", url: materialBasePath + "w01/era_tutorslides_w01.pdf" },
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3192195"},
-      { name: "Mitschrift 21.10.2024", url: materialBasePath + "w01/mitschrift_2024_10_21.pdf"},
-      { name: "Mitschrift 28.10.2024", url: materialBasePath + "w01/mitschrift_2024_10_28.pdf"}
+      { name: "Mitschrift 21.10.2024", url: materialBasePath + "w01/momi/mitschrift_2024_10_21.pdf"},
+      { name: "Mitschrift 24.10.2024", url: materialBasePath + "w01/momi/mitschrift_2024_10_24.pdf"}
     ],
   },
   {
@@ -39,8 +39,19 @@ const lectureWeeks = [
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3206035"},
       { name: "Tutorslides", url: materialBasePath + "w02/era_tutorslides_w02.pdf"},
-      { name: "Fixkommazahlen Tabelle", url: materialBasePath + "w02/binaryFixkommazahlen.ods"},
-      { name: "Zusammenfassung 'Erzeugung von 32-Bit Immediates'", url: materialBasePath + "w02/ErzeugenVon32BitImmediates.pdf"}
+      { name: "Fixkommazahlen Tabelle", url: materialBasePath + "w02/momi/binaryFixkommazahlen.ods"},
+      { name: "Zusammenfassung 'Erzeugung von 32-Bit Immediates'", url: materialBasePath + "w02/momi/ErzeugenVon32BitImmediates.pdf"},
+      { name: "Sign Extension Writeup", url: materialBasePath + "w02/momi/SignExtensionWriteup.pdf"},
+      { name: "Mitschrift 28.10.2024", url: materialBasePath + "w02/momi/mitschrift_2024_10_28.pdf"},
+      { name: "Mitschrift 31.10.2024", url: materialBasePath + "w02/momi/mitschrift_2024_10_31.pdf"},
+    ],
+  },
+  {
+    week: 3,
+    date: "04.11.2024",
+    topic: "RISC-V Assembly Teil 2",
+    materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3212486"},
     ],
   },
 ]
