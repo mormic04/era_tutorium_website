@@ -17,7 +17,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const materialBasePath = "https://home.in.tum.de/~momi/era-latex/"
+const materialBasePath = "https://home.in.tum.de/~momi/era-materials/"
 
 // Mock data for lecture materials
 const lectureWeeks = [
