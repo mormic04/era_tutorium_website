@@ -49,9 +49,13 @@ const lectureWeeks = [
   {
     week: 3,
     date: "04.11.2024",
-    topic: "RISC-V Assembly Teil 2",
+    topic: "RISC-V Deep Dive",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3212486"},
+      { name: "Tutorslides", url: materialBasePath + "w03/era_tutorslides_w03.pdf"},
+      { name: "[Template] Aufage 1c: swap64", url: materialBasePath + "w03/swap64_template.s"},
+      { name: "[Template] Aufgabe 2b: to_pascal", url: materialBasePath + "w03/to_pascal_template.s"},
+      { name: "[Template] Aufgabe 2b Bonus: to_c_string", url: materialBasePath + "w03/to_c_string_template.s"}
     ],
   },
 ]
