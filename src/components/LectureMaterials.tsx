@@ -72,7 +72,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 2;
+  currentWeek = 3;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
