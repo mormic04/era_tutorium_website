@@ -52,10 +52,10 @@ const lectureWeeks = [
     topic: "RISC-V Deep Dive",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3212486"},
-      { name: "Tutorslides", url: materialBasePath + "w03/era_tutorslides_w03.pdf"},
+      { name: "Tutorslides", url: materialBasePath + "w03/era_tutorslides_w03_v2.pdf"},
       { name: "[Template] Aufage 1c: swap64", url: materialBasePath + "w03/swap64_template.s"},
       { name: "[Template] Aufgabe 2b: to_pascal", url: materialBasePath + "w03/to_pascal_template.s"},
-      { name: "[Template] Aufgabe 2b Bonus: to_c_string", url: materialBasePath + "w03/to_c_string_template.s"}
+      { name: "[Template] Aufgabe 2b (Extra-Aufgabe): to_c_string", url: materialBasePath + "w03/to_c_string_template.s"}
     ],
   },
 ]
