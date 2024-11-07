@@ -55,7 +55,15 @@ const lectureWeeks = [
       { name: "Tutorslides", url: materialBasePath + "w03/era_tutorslides_w03_v2.pdf"},
       { name: "[Template] Aufage 1c: swap64", url: materialBasePath + "w03/swap64_template.s"},
       { name: "[Template] Aufgabe 2b: to_pascal", url: materialBasePath + "w03/to_pascal_template.s"},
-      { name: "[Template] Aufgabe 2b (Extra-Aufgabe): to_c_string", url: materialBasePath + "w03/to_c_string_template.s"}
+      { name: "[Template] Aufgabe 2b (Extra-Aufgabe): to_c_string", url: materialBasePath + "w03/to_c_string_template.s"},
+      { name: "[Lösung] Aufage 1c: swap64", url: materialBasePath + "w03/swap64_lsg.s"},
+      { name: "[Lösung] Alternativlösung Aufage 1c: swap64", url: materialBasePath + "w03/swap64_alt_lsg.s"},
+      { name: "[Lösung] Aufgabe 2b: to_pascal", url: materialBasePath + "w03/to_pascal_lsg.s"},
+      { name: "[Lösung] Aufgabe 2b (Extra-Aufgabe): to_c_string", url: materialBasePath + "w03/to_c_string_lsg.s"},
+      { name: "[Lösung] P01 Taschenrechner-Tester", url: materialBasePath + "w03/p01_lsg.s"},
+      { name: "Mitschrift 04.11.2024", url: materialBasePath + "w03/era_tutor03_platz_mo.pdf"},
+      { name: "Mitschrift 07.11.2024", url: materialBasePath + "w03/era_tutor03_platz_do.pdf"},
+      
     ],
   },
 ]
