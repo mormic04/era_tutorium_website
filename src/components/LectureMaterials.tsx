@@ -63,7 +63,13 @@ const lectureWeeks = [
       { name: "[Lösung] P01 Taschenrechner-Tester", url: materialBasePath + "w03/p01_lsg.s"},
       { name: "Mitschrift 04.11.2024", url: materialBasePath + "w03/era_tutor03_platz_mo.pdf"},
       { name: "Mitschrift 07.11.2024", url: materialBasePath + "w03/era_tutor03_platz_do.pdf"},
-      
+    ],
+  },
+  {
+    week: 4,
+    date: "11.11.2024",
+    topic: "RISC-V Calling Convention & Rekursion",
+    materials: [
     ],
   },
 ]
