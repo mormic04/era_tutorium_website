@@ -70,6 +70,11 @@ const lectureWeeks = [
     date: "11.11.2024",
     topic: "RISC-V Calling Convention & Rekursion",
     materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3220223"},
+      { name: "RISC-V ABIs Specification", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3219780"},
+      { name: "Tutorslides", url: materialBasePath + "w04/era_tutorslides_w04.pdf"},
+      { name: "[Template] ggt.s", url: materialBasePath + "w04/ggt_template.S"},
+      { name: "[Template] folge.s", url: materialBasePath + "w04/folge_template.S"},
     ],
   },
 ]
@@ -86,7 +91,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 3;
+  currentWeek = 4;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
