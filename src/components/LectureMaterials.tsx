@@ -75,6 +75,19 @@ const lectureWeeks = [
       { name: "Tutorslides", url: materialBasePath + "w04/era_tutorslides_w04.pdf"},
       { name: "[Template] ggt.s", url: materialBasePath + "w04/ggt_template.S"},
       { name: "[Template] folge.s", url: materialBasePath + "w04/folge_template.S"},
+      { name: "Mitschrift 11.11.2024", url: materialBasePath + "w04/era_tutor04_platz_mo"},
+      { name: "Mitschrift 14.11.2024", url: materialBasePath + "w04/era_tutor04_platz_do"},
+      { name: "[Lösung] ggt tail recursive ohne stack", url: materialBasePath + "w04/ggt.s"},
+      { name: "[Lösung] ggt musterlösung mit stack", url: materialBasePath + "w04/ggt_musterloesung.s"},
+      { name: "[Lösung] folge", url: materialBasePath + "w04/folge_lsg.s"},
+    ],
+  },
+  {
+    week: 5,
+    date: "18.11.2024",
+    topic: "Caches",
+    materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/pluginfile.php/5460110/mod_resource/content/1/era_tutor05_platz.pdf"},
     ],
   },
 ]
@@ -91,7 +104,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 4;
+  currentWeek = 5;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
