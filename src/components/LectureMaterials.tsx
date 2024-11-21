@@ -88,6 +88,17 @@ const lectureWeeks = [
     topic: "Caches",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/pluginfile.php/5460110/mod_resource/content/1/era_tutor05_platz.pdf"},
+      { name: "Mitschrift 18.10.2024", url: materialBasePath + "w05/era_tutor05_platz_mo"},
+      { name: "Mitschrift 21.10.2024", url: materialBasePath + "w05/era_tutor05_platz_do"},
+      { name: "Tutorslides", url: materialBasePath + "w05/era_tutorslides_w05.pdf"}
+    ],
+  },
+  {
+    week: 6,
+    date: "25.11.2024",
+    topic: "Kombinatorische Schaltungen",
+    materials: [
+
     ],
   },
 ]
