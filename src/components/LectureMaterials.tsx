@@ -98,7 +98,7 @@ const lectureWeeks = [
     date: "25.11.2024",
     topic: "Kombinatorische Schaltungen",
     materials: [
-
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3228465"}
     ],
   },
 ]
