@@ -115,7 +115,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 5;
+  currentWeek = 6;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
