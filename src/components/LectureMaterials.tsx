@@ -98,7 +98,10 @@ const lectureWeeks = [
     date: "25.11.2024",
     topic: "Kombinatorische Schaltungen",
     materials: [
-      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3228465"}
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3228465"},
+      { name: "Tutorslides", url: materialBasePath + "w06/era_tutorslides_w06.pdf"},
+      { name: "Digital Handbuch", url: materialBasePath + "w06/Doc_Deutsch.pdf"},
+      { name: "[Template] Aufgabe 4 - Arithmetische Schaltung", url: materialBasePath + "w06/abs_difference_template"}
     ],
   },
 ]
