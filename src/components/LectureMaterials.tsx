@@ -88,8 +88,8 @@ const lectureWeeks = [
     topic: "Caches",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/pluginfile.php/5460110/mod_resource/content/1/era_tutor05_platz.pdf"},
-      { name: "Mitschrift 18.10.2024", url: materialBasePath + "w05/era_tutor05_platz_mo"},
-      { name: "Mitschrift 21.10.2024", url: materialBasePath + "w05/era_tutor05_platz_do"},
+      { name: "Mitschrift 18.11.2024", url: materialBasePath + "w05/era_tutor05_platz_mo"},
+      { name: "Mitschrift 21.11.2024", url: materialBasePath + "w05/era_tutor05_platz_do"},
       { name: "Tutorslides", url: materialBasePath + "w05/era_tutorslides_w05.pdf"}
     ],
   },
@@ -101,7 +101,12 @@ const lectureWeeks = [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3228465"},
       { name: "Tutorslides", url: materialBasePath + "w06/era_tutorslides_w06.pdf"},
       { name: "Digital Handbuch", url: materialBasePath + "w06/Doc_Deutsch.pdf"},
-      { name: "[Template] Aufgabe 4 - Arithmetische Schaltung", url: materialBasePath + "w06/abs_difference_template.dig"}
+      { name: "[Template] Aufgabe 4 - Arithmetische Schaltung", url: materialBasePath + "w06/abs_difference_template.dig"},
+      { name: "[Musterlösung] Aufgabe 4 - Arithmetische Schaltung", url: materialBasePath + "w06/abs_difference.dig"},
+      { name: "[Musterlösung mit Multiplexer] Aufgabe 4 - Arithmetische Schaltung", url: materialBasePath + "w06/abs_difference_multiplexer.dig"},
+      { name: "[Tutorlösung] Aufgabe 4 - Arithmetische Schaltung", url: materialBasePath + "w06/abs_difference_mylsg.dig" },
+      { name: "Mitschrift 25.11.2024", url: materialBasePath + "w06/era_tutor06_platz_mo.pdf"},
+      { name: "Mitschrift 28.11.2024", url: materialBasePath + "w06/era_tutor06_platz_do.pdf"}
     ],
   },
 ]
