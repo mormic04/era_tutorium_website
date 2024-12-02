@@ -109,6 +109,15 @@ const lectureWeeks = [
       { name: "Mitschrift 28.11.2024", url: materialBasePath + "w06/era_tutor06_platz_do.pdf"}
     ],
   },
+  {
+    week: 7,
+    date: "02.12.2024",
+    topic: "Sequentielle Schaltungen",
+    materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3237134"},
+      { name: "Tutorslides", url: materialBasePath + "w07/era_tutorslides_w07.pdf"}
+    ],
+  },
 ]
 
 export default function LectureMaterials() {
@@ -123,7 +132,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 6;
+  currentWeek = 7;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
