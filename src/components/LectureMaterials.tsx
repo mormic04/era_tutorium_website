@@ -115,7 +115,14 @@ const lectureWeeks = [
     topic: "Sequentielle Schaltungen",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3237134"},
-      { name: "Tutorslides", url: materialBasePath + "w07/era_tutorslides_w07.pdf"}
+      { name: "Tutorslides", url: materialBasePath + "w07/era_tutorslides_w07.pdf"},
+      { name: "[Template] Aufgabe 2.1", url: materialBasePath + "w07/2.1_pc_template.dig"},
+      { name: "[Template] Aufgabe 2.2", url: materialBasePath + "w07/2.2_extend_template.dig"},
+      { name: "[Template] Aufgabe 2.3", url: materialBasePath + "w07/2.3_extend_pc_template.dig"},
+      { name: "[Lösung] Aufgabe 2.1", url: materialBasePath + "w07/2.1_pc.dig"},
+      { name: "[Lösung] Aufgabe 2.2", url: materialBasePath + "w07/2.2_extend.dig"},
+      { name: "[Lösung] Aufgabe 2.3", url: materialBasePath + "w07/2.3_extend_pc.dig"},
+      { name: "Mitschrift 02.12.2024", url: materialBasePath + "w07/era_tutor07_platz_mo.pdf"}
     ],
   },
 ]
