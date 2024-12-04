@@ -125,6 +125,14 @@ const lectureWeeks = [
       { name: "Mitschrift 02.12.2024", url: materialBasePath + "w07/era_tutor07_platz_mo.pdf"}
     ],
   },
+  {
+    week: 8,
+    date: "09.12.2024",
+    topic: "RiscV Single Cycle",
+    materials: [
+    ],
+  },
+  
 ]
 
 export default function LectureMaterials() {
