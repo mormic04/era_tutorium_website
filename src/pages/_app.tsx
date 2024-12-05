@@ -6,23 +6,21 @@ import Script from 'next/script'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div>
-    {/* Google Analytics */}
+      {/* Google Analytics Tag */}
       <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-K5G5RSBLR8`}
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-K5G5RSBLR8"
       />
-      <Script id="google-analytics" strategy="lazyOnload">
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-K5G5RSBLR8', {
-            page_path: window.location.pathname,
-          });
+          gtag('config', 'G-K5G5RSBLR8');
         `}
       </Script>
 
-      {/* ThemeProvider and main app */}
+      {/* Main App */}
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
       </ThemeProvider>
