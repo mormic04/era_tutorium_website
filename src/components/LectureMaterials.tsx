@@ -128,8 +128,12 @@ const lectureWeeks = [
   {
     week: 8,
     date: "09.12.2024",
-    topic: "RiscV Single Cycle",
+    topic: "RISC-V Single-Cycle Prozessor",
     materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3243427"},
+      { name: "Tutorslides", url: materialBasePath + "w08/era_tutorslides_w08.pdf"},
+      { name: "Writeup zur BNE-Aufgabe (Presentation)", url: materialBasePath + "w08/BNE_Erweiterung_presentation"},
+      { name: "Writeup zur BNE-Aufgabe (Text)", url: materialBasePath + "BNE_Erweiterung_writeup"},
     ],
   },
   
@@ -147,7 +151,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 7;
+  currentWeek = 8;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
