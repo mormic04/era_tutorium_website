@@ -133,7 +133,7 @@ const lectureWeeks = [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3243427"},
       { name: "Tutorslides", url: materialBasePath + "w08/era_tutorslides_w08.pdf"},
       { name: "Writeup zur BNE-Aufgabe (Presentation)", url: materialBasePath + "w08/BNE_Erweiterung_presentation"},
-      { name: "Writeup zur BNE-Aufgabe (Text)", url: materialBasePath + "BNE_Erweiterung_writeup"},
+      { name: "Writeup zur BNE-Aufgabe (Text)", url: materialBasePath + "w08/BNE_Erweiterung_writeup"},
     ],
   },
   
