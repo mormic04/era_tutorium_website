@@ -140,8 +140,8 @@ const lectureWeeks = [
   },
   {
     week: 9,
-    date: "09.12.2024",
-    topic: "RISC-V Single-Cycle Prozessor",
+    date: "15.12.2024",
+    topic: "RISC-V Multi-Cycle Prozessor",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3249481"},
       { name: "RISC-V Tabellen und Prozessor-Schaltbilder", url: "https://courses.edx.org/assets/courseware/v1/f06a2dc0c856f60ec0711e9f5e1c98cf/asset-v1:HarveyMuddX+ENGR85B+1T2023+type@asset+block/FinalReferences.pdf"},
