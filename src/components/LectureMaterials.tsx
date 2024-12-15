@@ -140,7 +140,7 @@ const lectureWeeks = [
   },
   {
     week: 9,
-    date: "15.12.2024",
+    date: "16.12.2024",
     topic: "RISC-V Multi-Cycle Prozessor",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3249481"},
