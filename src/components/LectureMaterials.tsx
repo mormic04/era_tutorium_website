@@ -146,7 +146,10 @@ const lectureWeeks = [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3249481"},
       { name: "RISC-V Tabellen und Prozessor-Schaltbilder", url: "https://courses.edx.org/assets/courseware/v1/f06a2dc0c856f60ec0711e9f5e1c98cf/asset-v1:HarveyMuddX+ENGR85B+1T2023+type@asset+block/FinalReferences.pdf"},
       { name: "Tutorslides", url: materialBasePath + "w09/era_tutorslides_w09.pdf"},
-      { name: "[Template] Aufabe 1d PatternRecognizer.dig", url: materialBasePath + "w09/PatternRecognizer_Template.dig"}
+      { name: "[Template] Aufgabe 1d PatternRecognizer.dig", url: materialBasePath + "w09/PatternRecognizer_Template.dig"},
+      { name: "[Lösung] Aufgabe 1d PatternRecognizer.dig", url: materialBasePath + "w09/PatternRecognizer_Musterlsg.dig"},
+      { name: "Mitschrift 16.12.2024", url: materialBasePath + "era_tutor09_platz_Mo.pdf"},
+      { name: "Mitschrift 19.12.2024", url: materialBasePath + "era_tutor09_platz_Do.pdf"},
     ],
   },
   
