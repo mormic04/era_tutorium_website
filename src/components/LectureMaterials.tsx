@@ -148,8 +148,8 @@ const lectureWeeks = [
       { name: "Tutorslides", url: materialBasePath + "w09/era_tutorslides_w09.pdf"},
       { name: "[Template] Aufgabe 1d PatternRecognizer.dig", url: materialBasePath + "w09/PatternRecognizer_Template.dig"},
       { name: "[Lösung] Aufgabe 1d PatternRecognizer.dig", url: materialBasePath + "w09/PatternRecognizer_Musterlsg.dig"},
-      { name: "Mitschrift 16.12.2024", url: materialBasePath + "era_tutor09_platz_Mo.pdf"},
-      { name: "Mitschrift 19.12.2024", url: materialBasePath + "era_tutor09_platz_Do.pdf"},
+      { name: "Mitschrift 16.12.2024", url: materialBasePath + "w09/era_tutor09_platz_Mo.pdf"},
+      { name: "Mitschrift 19.12.2024", url: materialBasePath + "w09/era_tutor09_platz_Do.pdf"},
     ],
   },
   
