@@ -152,6 +152,14 @@ const lectureWeeks = [
       { name: "Mitschrift 19.12.2024", url: materialBasePath + "w09/era_tutor09_platz_Do.pdf"},
     ],
   },
+  {
+    week: 10,
+    date: "06.01.2025",
+    topic: "Parallelisierung",
+    materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/pluginfile.php/5494257/mod_resource/content/1/era_tutor10.pdf"},
+    ],
+  },
   
 ]
 
