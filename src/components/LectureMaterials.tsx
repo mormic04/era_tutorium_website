@@ -158,6 +158,8 @@ const lectureWeeks = [
     topic: "Parallelisierung",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/pluginfile.php/5494257/mod_resource/content/1/era_tutor10.pdf"},
+      { name: "Tutorslides", url: materialBasePath + "w10/era_tutorslides_w10.pdf"},
+      { name: "Mitschrift 09.01.2025", url: materialBasePath + "w10/era_tutor10_platz_Do.pdf"}
     ],
   },
   
@@ -175,7 +177,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 9;
+  currentWeek = 10;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
