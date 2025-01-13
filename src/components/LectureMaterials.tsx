@@ -162,6 +162,17 @@ const lectureWeeks = [
       { name: "Mitschrift 09.01.2025", url: materialBasePath + "w10/era_tutor10_platz_Do.pdf"}
     ],
   },
+
+  {
+    week: 11,
+    date: "03.01.2025",
+    topic: "Pipelining",
+    materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3255947"},
+      { name: "[Template] Digital Aufgabe 2", url: "https://www.moodle.tum.de/mod/folder/view.php?id=3255952"},
+      { name: "Tutorslides", url: materialBasePath + "w11/era_tutorslides_w11.pdf"},
+    ],
+  },
   
 ]
 
@@ -177,7 +188,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 10;
+  currentWeek = 11;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
