@@ -165,7 +165,7 @@ const lectureWeeks = [
 
   {
     week: 11,
-    date: "03.01.2025",
+    date: "13.01.2025",
     topic: "Pipelining",
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3255947"},
