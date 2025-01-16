@@ -171,6 +171,9 @@ const lectureWeeks = [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3255947"},
       { name: "[Template] Digital Aufgabe 2", url: "https://www.moodle.tum.de/mod/folder/view.php?id=3255952"},
       { name: "Tutorslides", url: materialBasePath + "w11/era_tutorslides_w11.pdf"},
+      { name: "Mitschrift 13.01.2025", url: materialBasePath + "w11/era_tutor11_platz_Mo.pdf"},
+      { name: "Mitschrift 16.01.2025", url: materialBasePath + "w11/era_tutor11_platz_Do.pdf"},
+
     ],
   },
   
