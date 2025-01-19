@@ -176,6 +176,16 @@ const lectureWeeks = [
 
     ],
   },
+
+  {
+    week: 12,
+    date: "20.01.2025",
+    topic: "Optimierung",
+    materials: [
+      { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3266854"},
+      { name: "Tutorslides", url: materialBasePath + "w12/era_tutorslides_w12.pdf"},
+    ],
+  },
   
 ]
 
@@ -191,7 +201,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 11;
+  currentWeek = 12;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
