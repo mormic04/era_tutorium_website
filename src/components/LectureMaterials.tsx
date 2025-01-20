@@ -184,6 +184,7 @@ const lectureWeeks = [
     materials: [
       { name: "Übungsblatt (leer)", url: "https://www.moodle.tum.de/mod/resource/view.php?id=3266854"},
       { name: "Tutorslides", url: materialBasePath + "w12/era_tutorslides_w12.pdf"},
+      { name: "Mitschrift", url: materialBasePath + "w12/era_tutor12_platz.pdf"}
     ],
   },
   
