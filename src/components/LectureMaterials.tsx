@@ -187,6 +187,13 @@ const lectureWeeks = [
       { name: "Mitschrift", url: materialBasePath + "w12/era_tutor12_platz.pdf"}
     ],
   },
+
+  {
+    week: 13,
+    date: "27.01.2025",
+    topic: "SAT und Physical Design",
+    materials: []
+  },
   
 ]
 
