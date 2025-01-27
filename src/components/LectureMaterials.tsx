@@ -192,7 +192,11 @@ const lectureWeeks = [
     week: 13,
     date: "27.01.2025",
     topic: "SAT und Physical Design",
-    materials: []
+    materials: [
+      { name: "Mitschreibevorlage", url: materialBasePath + "w13/Mitschreibevorlage.pdf"},
+      { name: "Tutorslides", url: materialBasePath + "w13/era_tutorslides_w13.pdf"},
+      { name: "Mitschrift", url: materialBasePath + "w13/Mitschrift.pdf"}
+    ]
   },
   
 ]
@@ -209,7 +213,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 12;
+  currentWeek = 13;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
