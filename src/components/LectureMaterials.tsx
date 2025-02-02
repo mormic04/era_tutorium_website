@@ -198,6 +198,15 @@ const lectureWeeks = [
       { name: "Mitschrift", url: materialBasePath + "w13/Mitschrift.pdf"}
     ]
   },
+
+  {
+    week: 14,
+    date: "03.02.2025",
+    topic: "Fragestunde",
+    materials: [
+      { name: "Tutorslides", url: materialBasePath + "w14/era_tutorslides_w14.pdf"},
+    ]
+  },
   
 ]
 
@@ -213,7 +222,7 @@ export default function LectureMaterials() {
     return Math.ceil(diffDays / 7)
   }, [])
 
-  currentWeek = 13;
+  currentWeek = 14;
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
