@@ -207,6 +207,15 @@ const lectureWeeks = [
       { name: "Tutorslides", url: materialBasePath + "w14/era_tutorslides_w14.pdf"},
     ]
   },
+
+  {
+    week: 15,
+    date: "14.02.2025",
+    topic: "Klausur",
+    materials: [
+      { name: "Viel Erfolg!", url: "https://tum.live/w/ws24EidR/50026?t=5585"},
+    ]
+  },
   
 ]
 
